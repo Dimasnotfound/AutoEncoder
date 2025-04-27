@@ -24,7 +24,6 @@ Untuk mempercepat proses pelatihan, hanya **50 data** dari dataset training yang
 ## Arsitektur Model Autoencoder
 
 Autoencoder yang digunakan terdiri dari:
-
 - **Encoder:**
   - 3 layer Conv2D berturut-turut dengan kernel size 3x3, stride 2, dan padding 1
   - Setiap layer diikuti oleh BatchNorm2d dan ReLU activation
@@ -59,6 +58,8 @@ Dari tabel tersebut, terlihat bahwa model mengalami penurunan loss yang konsiste
 
 Berikut contoh hasil pewarnaan citra menggunakan autoencoder:
 
+
+![output](output.png)
 
 
 ## Kesimpulan
